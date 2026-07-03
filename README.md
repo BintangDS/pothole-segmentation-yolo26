@@ -38,7 +38,17 @@ Below is a side-by-side comparison of the detection performance when the models 
 <table>
   <tr>
     <th align="center">❌ Run 1 (Baseline)</th>
+    
+
+https://github.com/user-attachments/assets/cd1ac29c-45f9-461a-87db-171110adef40
+
+
     <th align="center">✅ Run 2 (Proposed Method)</th>
+    
+
+https://github.com/user-attachments/assets/6a9e36f0-f057-4998-a6a7-caf2706a18e7
+
+
   </tr>
   <tr>
     <td><video src="Run1.mp4" controls="controls" width="100%"></video></td>
