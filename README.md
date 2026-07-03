@@ -35,10 +35,20 @@ Below are sample predictions on static images, utilizing the independent Mendele
 
 Below is a side-by-side comparison of the detection performance when the models are tested on dynamic real-world videos:
 
-| ❌ Run 1 (Baseline) | ✅ Run 2 (Proposed Method) |
-| :---: | :---: |
-| <video src="Run1.mp4" controls="controls" width="100%"></video> | <video src="Run2.mp4" controls="controls" width="100%"></video> |
-| **Model trained on static images.** <br> Exhibits severe flickering and bounding box instability when facing camera vibrations. | **Model trained with 1 FPS extraction.** <br> Displays highly stable, frame-to-frame polygon instance segmentation. |
+<table>
+  <tr>
+    <th align="center">❌ Run 1 (Baseline)</th>
+    <th align="center">✅ Run 2 (Proposed Method)</th>
+  </tr>
+  <tr>
+    <td><video src="Run1.mp4" controls="controls" width="100%"></video></td>
+    <td><video src="Run2.mp4" controls="controls" width="100%"></video></td>
+  </tr>
+  <tr>
+    <td><b>Model trained on static images.</b><br>Exhibits severe flickering and bounding box instability when facing camera vibrations.</td>
+    <td><b>Model trained with 1 FPS extraction.</b><br>Displays highly stable, frame-to-frame polygon instance segmentation.</td>
+  </tr>
+</table>
 
 ## 🛠️ Tech Stack
 * Python
